@@ -12,16 +12,36 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to show nearby doctors",
+        "NSLocationAlwaysUsageDescription": "We need your location to show nearby doctors",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We need your location to show nearby doctors",
+        "NSLocationUsageDescription": "We need your location to show nearby doctors"
+      },
+      "bundleIdentifier": "com.daha40.TabibNearby"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "package": "com.daha40.TabibNearby"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "76a88c1e-a82e-42bb-8913-1512a5340d61"
+      }
     }
   }
 }
