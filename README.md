@@ -20,7 +20,7 @@ TabibNearby is a mobile application that helps users find nearby doctors and cli
 
 ## Installation
 
-1. Clone the repository:
+Apk version : https://expo.dev/artifacts/eas/3swf9Rg8etmitqmQhxuW7o.apk
 
    ## Usage
 
