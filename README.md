@@ -13,10 +13,26 @@ TabibNearby is a mobile application that helps users find nearby doctors and cli
 
 ## Tech Stack
 
-- React Native
-- Expo
-- React Navigation
-- [Other libraries used]
+
+   React Native
+    Expo
+    React Navigation
+    expo-google-fonts/roboto
+    axios
+    expo-dev-client
+    expo-font
+    expo-linear-gradient
+    expo-location
+    expo-status-bar
+    expo-system-ui
+    react
+    react-native-animatable
+    react-native-autocomplete-input
+    react-native-geolocation-service
+    react-native-keyboard-aware-scroll-view
+    react-native-paper
+    react-native-permissions
+    react-native-vector-icons
 
 ## Installation
 
