@@ -5,10 +5,12 @@ import SplashScreen from './screens/SplashScreen';
 import DoctorsScreen from './screens/DoctorsScreen';
 import DoctorDetailsScreen from './screens/DoctorDetailsScreen';
 import AboutScreen from './screens/AboutScreen';
+import { enableScreens } from 'react-native-screens';
 
 const Stack = createNativeStackNavigator();
 
 const App = () => {
+    enableScreens();
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Splash">
